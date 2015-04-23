@@ -1,5 +1,7 @@
 # sexy_relations
 
+![Sexy relations](http://i.giphy.com/mmgxuEoMNmgKY.gif)
+
 Sexy Relations gives you a sexy way to display model relationships in the console. Simply add to your Gemfile and run the `sexy_relations` method on a model in the rails console like so...
 
 `User.sexy_relations`
