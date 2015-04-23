@@ -1,6 +1,6 @@
-# SexyRelations
+# sexy_relations
 
-Sexy Relations gives you a sexy way to display model relationships in the console. Simply add to your Gemfile and run the `sexy_relations` method on a model like so...
+Sexy Relations gives you a sexy way to display model relationships in the console. Simply add to your Gemfile and run the `sexy_relations` method on a model in the rails console like so...
 
 `User.sexy_relations`
 
@@ -27,10 +27,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install sexy_relations
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
