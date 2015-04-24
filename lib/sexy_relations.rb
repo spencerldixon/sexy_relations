@@ -4,7 +4,7 @@ require 'active_record'
 module SexyRelations
   def sexy_relations(relation = nil)
     puts "==== #{self.name.upcase} ===="
-    self.reflect_on_all_associations(relation).sort.each do |a|
+    self.reflect_on_all_associations(relation).each do |a|
       puts "#{a.macro} => #{a.name}"
     end
     puts "======================"
